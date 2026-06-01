@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# LaTeX (artefacts de compilation)
+rapport/*.aux
+rapport/*.log
+rapport/*.out
+rapport/*.toc
+rapport/*.lof
+rapport/*.lot
+rapport/*.fls
+rapport/*.fdb_latexmk
+rapport/*.synctex.gz
+rapport/_minted-*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Resultats (optionnel - decommenter pour exclure)
+# resultats/*.png
+# resultats/*.txt
